@@ -31,4 +31,4 @@ app.get("/:shortUrl", async (req, res) => {
   shortUrl.save();
   res.redirect(shortUrl.full);
 });
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.WEB_CONCURRENCY || 3000);
