@@ -15,7 +15,7 @@ app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
 app.get("/", async (req, res) => {
   // const emailList = await emailList.find();
-  res.send("server online...");
+  res.render("index", { shortUrl: emailList });
 });
 
 app.post("/email=:email", async (req, res) => {
