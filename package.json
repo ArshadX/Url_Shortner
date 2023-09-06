@@ -6,7 +6,7 @@
   "scripts": {
     "devStart": "nodemon server.js"
   },
-   "engines": {
+  "engines": {
     "node": "16.15.0"
   },
   "author": "Arshad",
@@ -16,6 +16,7 @@
     "express": "^4.18.1",
     "mongodb": "^4.8.0",
     "mongoose": "^6.4.5",
+    "nodemon": "^3.0.1",
     "shortid": "^2.2.16"
   }
 }
